@@ -1,0 +1,500 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.ActivateAction<object@PlaybackMode>"
+      },
+      {
+        "name": "AMAZON.AddAction<object@Book,targetCollection@ReadingList>"
+      },
+      {
+        "name": "AMAZON.AddAction<object@BookSeries,targetCollection@ReadingList>"
+      },
+      {
+        "name": "AMAZON.AddAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.AddAction<object@MusicCreativeWork,targetCollection@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@Book,sourceCollection@ReadingList>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@CreativeWork>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@ScreeningEvent[location]>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@ScreeningEvent[workPresented]>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+      },
+      {
+        "name": "AMAZON.ChooseAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.CloseAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.CloseAction<object@Thing>"
+      },
+      {
+        "name": "AMAZON.CloseAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.CreateAction<object@MusicPlaylist,content@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.CreateAction<object@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.CreateAction<object@ReadingList>"
+      },
+      {
+        "name": "AMAZON.DeactivateAction<object@PlaybackMode>"
+      },
+      {
+        "name": "AMAZON.DeactivateAction<object@Thing>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@Book,sourceCollection@ReadingList>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@BookSeries,sourceCollection@ReadingList>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@MusicPlaylist,sourceCollection@Catalog>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@ReadingList>"
+      },
+      {
+        "name": "AMAZON.DeleteAction<object@Thing>"
+      },
+      {
+        "name": "AMAZON.DislikeAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ExitAction<object@Episode>"
+      },
+      {
+        "name": "AMAZON.ExitAction<object@VideoPlaylist>"
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.IgnoreAction<object@Thing>"
+      },
+      {
+        "name": "AMAZON.LikeAction<object@Musician>"
+      },
+      {
+        "name": "AMAZON.LikeAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.LoopOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.LoopOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.MoreIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.MuteAction<object@Thing>"
+      },
+      {
+        "name": "AMAZON.NavigateHomeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NavigateSettingsIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@Episode>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@MusicPlaylist>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@TVSeason>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@TVSeries>"
+      },
+      {
+        "name": "AMAZON.PlaybackAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.RateAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.RateAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ReadAction<object@Calendar>"
+      },
+      {
+        "name": "AMAZON.RepeatAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.RepeatIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ReplaceAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.RestartAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.RestartAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.RestartAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ResumeAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.ResumeAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.ResumeAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ResumeAction<object@TVSeries>"
+      },
+      {
+        "name": "AMAZON.ResumeAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollLeftIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollRightIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Actor>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Book[datePublished]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Book[numberOfSections]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Book[position]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Calendar>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@CreativeWork>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@CreativeWork[name]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@CreativeWorkSection[name]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Episode>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Episode[description]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[eventStatus]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[location]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Event[startDate]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@LocalBusiness>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@LocalBusiness[openHours.closes]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@LocalBusiness[openHours]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@LocalBusiness[telephone]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicCreativeWork[byArtist]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicGroup>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicGroup[musicGroupMember]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicPlaylist[tracks]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicRecording[byArtist.musicGroupMember]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicRecording[byArtist]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicRecording[duration]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicRecording[inAlbum]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@MusicRecording[producer]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@ScreeningEvent>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@ScreeningEvent[location]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@Singer>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[actor]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[audience]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[contentRating]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[dateReleased]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[description]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[director]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[genre]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[musicBy]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@VideoCreativeWork[name]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@WeatherForecast>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@WeatherForecast[temperature]>"
+      },
+      {
+        "name": "AMAZON.SearchAction<object@WeatherForecast[weatherCondition]>"
+      },
+      {
+        "name": "AMAZON.ShuffleOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ShuffleOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StartAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.StartAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.StopAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.StopAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.SuspendAction<object@Book>"
+      },
+      {
+        "name": "AMAZON.SuspendAction<object@CreativeWorkSection>"
+      },
+      {
+        "name": "AMAZON.SuspendAction<object@Episode>"
+      },
+      {
+        "name": "AMAZON.SuspendAction<object@MusicCreativeWork>"
+      },
+      {
+        "name": "AMAZON.SuspendAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.WatchAction<object@Episode>"
+      },
+      {
+        "name": "AMAZON.WatchAction<object@VideoCreativeWork>"
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "Movement",
+        "samples": [
+          "Alexa open movement",
+          "Amazon open movement skill",
+          "Alexa open movement skill",
+          "Amazon open movement",
+          "Amazon open mommy's helper",
+          "amazon open mommy's helper skill",
+          "Alexa open mommy's helper",
+          "Alexa open mommy's helper skill"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "mommys helper"
+  },
+  "prompts": [
+    {
+      "id": "Confirm.Intent-Movement",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Would you like to open the Mommy's Helper skill?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "Movement",
+        "confirmationRequired": true,
+        "prompts": {
+          "confirmation": "Confirm.Intent-Movement"
+        },
+        "slots": []
+      }
+    ]
+  }
+}
